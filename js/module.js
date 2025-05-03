@@ -16,8 +16,8 @@ function infoPop() {
     return;
   }
   if (url in collection_names) {
-  	document.getElementById('d-name').textContent = url;
-  	document.getElementById('puny-name').textContent = collection_names[url][0];
+    document.getElementById('d-name').textContent = collection_names[url][0];
+  	document.getElementById('puny-name').textContent = url;
   	document.getElementById('name-date').textContent = collection_names[url][1];
   }
 }
