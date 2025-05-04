@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Grandfathered - History of Grandfathered Unicode Symbol Domain Names</title>
-<link rel="stylesheet" href="">
 <style>
 body { margin: 20px; background: #e6f7ff; }
 a { text-decoration: none; font-weight: bold; }
@@ -18,15 +17,18 @@ a:link { color: #FF6F00; background-color: transparent; text-decoration: none; }
 a:visited { color: #FF6F00; background-color: transparent; text-decoration: none; }
 a:hover { color: #ffa866; background-color: transparent; text-decoration: underline; }
 a:active { color: #FFF35C; background-color: transparent; text-decoration: underline; }
-.com-text-display { height: 2705px; width: 450px; }
-.net-text-display { height: 695px; width: 450px; }
+.com-text-display { height: 2800px; width: 450px; }
+.net-text-display { height: 1390px; width: 450px; }
 .wordwrapper { word-wrap: break-word; }
 @media screen and (max-width: 768px) {
     .com-text-display, .net-text-display {
       width: 300px;
     }
     .com-text-display {
-      height: 2950px;
+      height: 3015px;
+    }
+    .net-text-display {
+      height: 1575px;
     }
     .header-logo {
       max-width: 75vw;
@@ -34,6 +36,7 @@ a:active { color: #FFF35C; background-color: transparent; text-decoration: under
 }
 </style>
 </head>
+
 <body>
 <div class="container">
 <h1><a href="http://grandfathered.net"><img src="images/grandfatherednet.gif" class="header-logo"></a></h1>
@@ -48,7 +51,13 @@ a:active { color: #FFF35C; background-color: transparent; text-decoration: under
 </ul>
 
 <h3 id="intro">Introduction</h3>
-<p>With the exception of the information emoji (ℹ), the trademark emoji (™️) and the "m" emoji (Ⓜ️), for an emoji to work as a domain name, it must be converted into "punycode". Punycode is a character encoding method used for <a href="https://en.wikipedia.org/wiki/Internationalized_domain_name" target="_blank">internationalized domain names</a> (IDNs). This representation is used when registering domains containing special characters. The <a href="https://en.wikipedia.org/wiki/ASCII" target="_blank">ASCII</a> representation starts with the prefix "xn--" and is followed by the emoji-containing domain name encoded as punycode. For example, "xn--qei" is "❤" when converted back to Unicode.</p>
+<p>Unicode domain names, also known as <a href="https://en.wikipedia.org/wiki/Internationalized_domain_name" target="_blank">Internationalized Domain Names</a> (IDNs), allow the use of non-ASCII characters, such as emojis and symbols from various scripts, in internet domain names. Unlike traditional domain names restricted to 37 <a href="https://en.wikipedia.org/wiki/ASCII" target="_blank">ASCII</a> characters (English letters, digits 0-9, and the hyphen), unicode domain names expand possibilities by incorporating characters from diverse unicode character sets, like currencies (€), mathematical operators (÷), and emojis (😉).</p>
+
+<p>To function within the internet’s infrastructure, these special characters are encoded into an ASCII-compatible format called punycode, prefixed with "xn--". For example, "<b>music♫.com</b>" becomes "<b>xn--music-ht1c.com</b>" in punycode.</p>
+
+<p>This website explores the fascinating history of "grandfathered" unicode domain names: early domains registered with unicode symbols before new standards (such as IDNA2008) restricted new unicode registrations.</p>
+
+<p>With the exception of the information emoji (ℹ), the trademark emoji (™️) and the "m" emoji (Ⓜ️), for an emoji to work as a domain name, it must be converted into "punycode". Punycode is a character encoding method used for IDNs. This representation is used when registering domains containing special characters. The ASCII representation starts with the prefix "xn--" and is followed by the emoji-containing domain name encoded as punycode. For example, "xn--qei" is "❤" when converted back to Unicode.</p>
 
 <p>Each emoji has a unique punycode representation. For example, "😉" is represented as "xn--n28h". There are several generators on the Internet that allow one to convert emoji to punycode and back, but the most popular is <a href="https://punycoder.com/" target="_blank">punycoder.com</a></p>
 
@@ -86,10 +95,12 @@ On 19 April 2001, ICANN and VeriSign expanded the allowed set of characters to i
 
 <h3 id="current">Currently Registered</h3>
 
-<p>On 7 July 2017, the people over at <a href="http://i❤️.ws" target="_blank">i❤️.ws</a> (Domain Research Group) were granted access to the raw .com zone file containing all registered .com domain names in existence. Of the 305,782,825 registered domain names at the time, only 233 contained invalid unicode symbols. Here is an up-to-date list of the unicode symbol domain names they scrapped (plus some more that have since been discovered):</p>
+<p>On 7 July 2017, the people over at <a href="http://i❤️.ws" target="_blank">i❤️.ws</a> (Domain Research Group) were granted access to the raw .com zone file containing all registered .com domain names in existence. Of the 305,782,825 registered domain names at the time, only 233 contained since-restricted unicode symbols. </p>
+  
+<p>Here are two up-to-date lists of the .com and .net restricted unicode symbol domain names that are currently known to exist:</p>
 
 
-<h4>Current list of <u>164</u> known, registered, grandfathered unicode symbol <u>.com</u> domain names as of <u>3 May 2025</u>:</h4>
+<h4>List of <u>170</u> known, registered, grandfathered unicode symbol <u>.com</u> domain names as of <u>May 2025</u>:</h4>
 
 <p><i>Note: This list may not be complete. If you find a discrepancy, please email <a href="mailto:webmaster@grandfathered.net">webmaster@grandfathered.net</a>.</i></p>
 
@@ -101,7 +112,7 @@ On 19 April 2001, ICANN and VeriSign expanded the allowed set of characters to i
 <p style="padding: 30px 0 0 0;">On 8 August 2017, <a href="http://i❤️.ws" target="_blank">i❤️.ws</a> (Domain Research Group) conducted the same test on the .net zone file. Only 46 contained invalid unicode symbols. Here is an up-to-date list of the unicode symbol domain names they scrapped (plus some more that have since been discovered):</p>
 
 
-<h4>Current list of <u>39</u> known, registered, grandfathered unicode symbol <u>.net</u> domain names as of <u>2 May 2025</u>:</h4>
+<h4>List of <u>85</u> known, registered, grandfathered unicode symbol <u>.net</u> domain names as of <u>May 2025</u>:</h4>
 
 <p><i>Note: This list may not be complete. If you find a discrepancy, please email <a href="mailto:webmaster@grandfathered.net">webmaster@grandfathered.net</a>.</i></p>
 
