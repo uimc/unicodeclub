@@ -7,7 +7,7 @@ import { collection_names } from './collection.js';
 const param = new URLSearchParams(location.search);
 const url = param.get('url');
 
-document.title = url;
+document.title = collection_names[url][0];
 
 function infoPop() {
   if (!(url in collection_names)) {
