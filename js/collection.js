@@ -3,5 +3,7 @@ export const collection_names = {
   "xn--i-n3p.com": ["i♥.com", "2003-09-02 18:12:58"],
   "xn--64h.net": ["☹.net", "2004-03-11 09:16:54"],
   "xn--ezg.com": ["₥.com", "2003-11-10 19:17:09"],
-  "xn---bank-5l4b.com": ["€-bank.com", "2005-12-30 20:14:40"]
+  "xn---bank-5l4b.com": ["€-bank.com", "2005-12-30 20:14:40"],
+  "xn--opyat-bhad.com": ["©opy©at.com", "2010-04-01 02:08:57"],
+  "xn--iu-t0x.com": ["i♥u.com", "2006-02-06 11:31:56"]  
 };
