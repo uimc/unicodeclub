@@ -7,19 +7,20 @@ import { collection_names } from './collection.js';
 const param = new URLSearchParams(location.search);
 const url = param.get('url');
 
-document.title = collection_names[url][0];
-
 function infoPop() {
-  if (!(url in collection_names)) {
+  // Check for invalid URL first
+  if (!url || !(url in collection_names)) {
     document.getElementById('error').style.display = "inline-block";
     document.getElementById('container').style.display = "none";
     return;
   }
-  if (url in collection_names) {
-    document.getElementById('d-name').textContent = collection_names[url][0];
-  	document.getElementById('puny-name').textContent = url;
-  	document.getElementById('name-date').textContent = collection_names[url][1];
-  }
+  
+  // Only set title and other content if URL is valid
+  document.title = collection_names[url][0];
+  document.getElementById('d-name').textContent = collection_names[url][0];
+  document.getElementById('puny-name').textContent = url;
+  document.getElementById('name-date').textContent = collection_names[url][1];
 }
 
-infoPop();
+// Run after DOM is loaded
+document.addEventListener('DOMContentLoaded', infoPop);
