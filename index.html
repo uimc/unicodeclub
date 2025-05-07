@@ -13,7 +13,7 @@ body { margin: 20px; }
 a { text-decoration: none; font-weight: bold; }
 footer { padding: 30px 0 0 0; text-align: center; }
 h1 { text-align: center; }
-h2 { text-align: center; padding: 30px 0 10px 0; }
+h2 { text-align: center; padding: 40px 0 10px 0; }
 h3 { padding: 30px 0 10px 0; }
 ul { padding: 10px 30px; }
 .container { max-width: 950px; margin: auto; padding: 20px; border: 1px dashed; }
@@ -63,13 +63,15 @@ a:hover { color: #FFF; background-color: #0000FF; text-decoration: none; }
 
 <p>This website explores the fascinating history of "grandfathered" unicode domain names: early domains registered with unicode symbols before new standards (such as IDNA2008) restricted new unicode registrations.</p>
 
-<p>With the exception of the information emoji (ℹ), the trademark emoji (™️) and the "m" emoji (Ⓜ️), for an emoji to work as a domain name, it must be converted into "punycode". Punycode is a character encoding method used for IDNs. This representation is used when registering domains containing special characters. The ASCII representation starts with the prefix "xn--" and is followed by the emoji-containing domain name encoded as punycode. For example, "xn--qei" is "❤" when converted back to Unicode.</p>
+<p>With the exception of the information emoji (ℹ), the trademark emoji (™️) and the "m" emoji (Ⓜ️), for an emoji to work as a domain name, it must be converted into <a href="https://en.wikipedia.org/wiki/Punycode" target="_blank">punycode</a>. Punycode is a character encoding method used for IDNs. This representation is used when registering domains containing special characters. The ASCII representation starts with the prefix "xn--" and is followed by the emoji-containing domain name encoded as punycode. For example, "xn--qei" is "❤" when converted back to Unicode.</p>
 
 <p>Each emoji has a unique punycode representation. For example, "😉" is represented as "xn--n28h". There are several generators on the Internet that allow one to convert emoji to punycode and back, but the most popular is <a href="https://punycoder.com/" target="_blank">punycoder.com</a></p>
 
-<p>While it is still possible to register unicode/emoji domain names on some country-code top-level (ccTLD) domains (.to, .st, .kz, etc) to this day, it is <b>NOT POSSIBLE</b> (since 2010) to register any non-language unicode or emoji second-level domains (SLDs) on general top-level (gTLD) domains (.com, .shop, .college, etc).</p>
+<p>While it is still possible to register unicode/emoji domain names on some <a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">country-code top-level domains</a> (ccTLDs (.to, .st, .kz, etc)) to this day, it is <b>NOT POSSIBLE</b> (since 2010) to register any non-language unicode or emoji <a href="https://en.wikipedia.org/wiki/Second-level_domain" target="_blank">second-level domains</a> (SLDs) on <a href="https://en.wikipedia.org/wiki/Generic_top-level_domain" target="_blank">general top-level domains</a> (gTLDs (.com, .shop, .college, etc)).</p>
 
 <p>This is because all gTLDs must follow a strict set of rules and restrictions imposed by ICANN and IDNA. ccTLDs are not required to adhere to any of these registration restrictions, as it is up to each country to decide what is best for it's respective, assigned ccTLD.</p>
+
+<p>To learn more about top-level domains, check out: <a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains" target="_blank">List of Internet top-level domains</a> 
 
 <h2 id="event">Notable Events</h2>
 <p>Prior to April 2001, domain names were limited to 37 characters: 26 English letters, 0 to 9, and the hyphen (-).</p>
@@ -128,13 +130,20 @@ On 19 April 2001, ICANN and VeriSign expanded the allowed set of characters to i
 
 <h2 id="today">Emoji Domains Today</h2>
 
-<p>As of May 2025, only country-code top-level domains (ccTLDs) are able to allow the registration of unicode/emoji domains. Of the <a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">308</a> ccTLDs in existence today, only 6 allow for emoji domain registrations:</p>
+<p>As of May 2025, only country-code top-level domains (ccTLDs) are able to allow the registration of unicode/emoji domains. Of the <a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">308 ccTLDs</a> in existence today, only 6 actively allow for emoji domain registrations:</p>
 
-<p style="text-align: center;"><b>.fm  .kz  .st  .to  .uz  .ws</b></p>
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/.fm" target="_blank">.fm  (Federated States of Micronesia)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/.kz" target="_blank">.kz  (Kazakhstan)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/.st" target="_blank">.st  (São Tomé and Príncipe)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/.to" target="_blank">.to  (Tonga)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/.uz" target="_blank">.uz  (Uzbekistan)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/.ws" target="_blank">.ws  (Samoa)</a></li>
+</ul>
 
-<p><i>Note: The registration of an emoji domain can be more difficult since it is sometimes not possible to enter emoji characters into the online registration fields at some domain name registrars. Try using the <a href="https://punycoder.com/" target="_blank">punycode</a> version of the unicode/emoji instead.</i></p>
+<p><i>Note: The registration of an emoji domain can be more difficult since it is sometimes not possible to enter emoji characters into the online registration fields at some domain name registrars. Try using the punycode version of the unicode/emoji instead.</i></p>
 
-<p>The availability of an emoji domain name can be verified by checking the <a href="https://lookup.icann.org/" target="_blank">WHOIS</a> data of the <a href="https://punycoder.com/" target="_blank">punycode</a> version of the domain.</p>
+<p>The availability of an emoji domain name can be verified by checking the <a href="https://lookup.icann.org/" target="_blank">WHOIS</a> data of the punycode (<a href="https://punycoder.com/" target="_blank">punycoder.com</a>) version of the domain.</p>
 
 
 <h2 id="reference">References and Sources</h2>
@@ -142,14 +151,6 @@ On 19 April 2001, ICANN and VeriSign expanded the allowed set of characters to i
 <div class="wordwrapper">
 <p>[Wikipedia, Emoji domain]
 <br><a href="https://en.wikipedia.org/wiki/Emoji_domain" target="_blank">(https://en.wikipedia.org/wiki/Emoji_domain)</a></p>
-<p>[Wikipedia, Country code top-level domain]
-<br><a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">(https://en.wikipedia.org/wiki/Country_code_top-level_domain)</a></p>
-<p>[Wikipedia, Internationalized domain name]
-<br><a href="https://en.wikipedia.org/wiki/Internationalized_domain_name" target="_blank">(https://en.wikipedia.org/wiki/Internationalized_domain_name)</a></p>
-<p>[Wikipedia, ASCII]
-<br><a href="https://en.wikipedia.org/wiki/ASCII" target="_blank">(https://en.wikipedia.org/wiki/ASCII)</a></p>
-<p>[Punycoder]
-<a href="https://www.punycoder.com/" target="_blank">(https://www.punycoder.com/)</a></p>
 <p>[♨️.com]
 <a href="https://www.xn--j6h.com/" target="_blank">(xn--j6h.com)</a></p>
 <p>[All the DotCom Emoji Domains]
