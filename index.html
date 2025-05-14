@@ -8,34 +8,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 <link rel="manifest" href="favicon/site.webmanifest">
-<style>
-body { font-family: sans-serif; margin: 0; }
-a { text-decoration: none; font-weight: bold; }
-footer { padding: 30px 0 0 0; text-align: center; }
-h1 { text-align: center; }
-h2 { text-align: center; padding: 40px 0 10px 0; }
-h3 { padding: 30px 0 10px 0; }
-ul { padding: 0; }
-.ul-list { padding: 10px 10px 10px 50px; }
-.container { max-width: 950px; margin: auto; padding: 20px; margin-top: 30px; border: 1px dashed; }
-a:link { background-color: transparent; text-decoration: none; }
-a:visited { color: #0000FF; text-decoration: none; }
-a:hover { color: #FFF; background-color: #0000FF; text-decoration: none; }
-.logo-link:hover { text-decoration: none; background: transparent; }
-.logo-link img { padding-top: 20px; }
-.com-text-display { height: 2800px; width: 500px; }
-.net-text-display { height: 1400px; width: 500px; }
-.wordwrapper { word-wrap: break-word; }
-#nav-header { padding: 0 10px; position: sticky; top: 0; background: #f0f0f0; border: 1px dashed; text-align: center; }
-#nav-header li { display: inline; padding: 6px; }
-@media screen and (max-width: 768px) {
-  .com-text-display, .net-text-display { width: 300px; }
-  .com-text-display { height: 3050px; }
-  .net-text-display { height: 1600px; }
-  .header-logo { max-width: 75vw; }
-  .ul-list { padding: 10px 10px 10px 30px; }
-}
-</style>
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -125,20 +98,80 @@ On 19 April 2001, ICANN and <a href="https://en.wikipedia.org/wiki/Verisign" tar
 
 <h2 id="today">Emoji Domains Today</h2>
 
-<p>As of May 2025, only country-code top-level domains (ccTLDs) are able to allow the registration of unicode/emoji domains. Of the <a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">308 ccTLDs</a> in existence today, only 6 actively allow for emoji domain registrations:</p>
+<p>As of May 2025, only country-code top-level domains (ccTLDs) are able to allow the registration of unicode/emoji domains. Of the <a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">308 ccTLDs</a> in existence today, only 8 actively allow for emoji domain registrations:</p>
 
-<ul class="ul-list">
-    <li><a href="https://en.wikipedia.org/wiki/.fm" target="_blank">.fm  (Federated States of Micronesia)</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/.kz" target="_blank">.kz  (Kazakhstan)</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/.st" target="_blank">.st  (São Tomé and Príncipe)</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/.to" target="_blank">.to  (Tonga)</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/.uz" target="_blank">.uz  (Uzbekistan)</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/.ws" target="_blank">.ws  (Samoa)</a></li>
-</ul>
+<table id="cc-table">
+  <tr>
+    <th>ccTLD</th>
+    <th>Registrars with Functioning Emoji Registrations</th>
+  </tr>
+  <tr>
+    <td>.fm <a class="sm-a" href="https://en.wikipedia.org/wiki/.fm" target="_blank">(Federated States of Micronesia)</a></td>
+    <td>
+      <a href="https://regery.com" target="_blank">regery.com</a>, 
+      <a href="https://dot.fm/" target="_blank">dot.fm</a>, *
+    </td>
+  </tr>
+  <tr>
+    <td>.gg <a class="sm-a" href="https://en.wikipedia.org/wiki/.gg" target="_blank">(Bailiwick of Guernsey)</a></td>
+    <td>
+      <a href="https://porkbun.com" target="_blank">porkbun.com</a>, 
+      <a href="https://channelislandhosting.net/" target="_blank">channelislandhosting.net</a>, 
+      <a href="https://sav.com" target="_blank">sav.com</a>, *
+    </td>
+  </tr>
+  <tr>
+    <td>.je <a class="sm-a" href="https://en.wikipedia.org/wiki/.je" target="_blank">(Bailiwick of Jersey)</a></td>
+    <td>
+      <a href="https://porkbun.com" target="_blank">porkbun.com</a>, 
+      <a href="https://channelislandhosting.net/" target="_blank">channelislandhosting.net</a>, 
+      <a href="https://sav.com" target="_blank">sav.com</a>, *
+    </td>
+  </tr>
+  <tr>
+    <td>.kz <a class="sm-a" href="https://en.wikipedia.org/wiki/.kz" target="_blank">(Kazakhstan)</a></td>
+    <td>
+      <a href="https://ps.kz" target="_blank">ps.kz</a>, *
+    </td>
+  </tr>
+  <tr>
+    <td>.st <a class="sm-a" href="https://en.wikipedia.org/wiki/.st" target="_blank">(São Tomé and Príncipe)</a></td>
+    <td>
+      <a href="https://gandi.net" target="_blank">gandi.net</a>, 
+      <a href="https://istanco.net/" target="_blank">istanco.net</a>, 
+      <a href="https://nic.st/" target="_blank">nic.st</a>, *
+    </td>
+  </tr>
+  <tr>
+    <td>.to <a class="sm-a" href="https://en.wikipedia.org/wiki/.to" target="_blank">(Tonga)</a></td>
+    <td>
+      <a href="https://istanco.net/" target="_blank">istanco.net</a>, 
+      <a href="https://directnic.com/" target="_blank">directnic.com</a>, *
+    </td>
+  </tr>
+  <tr>
+    <td>.uz <a class="sm-a" href="https://en.wikipedia.org/wiki/.uz" target="_blank">(Uzbekistan)</a></td>
+    <td>
+      <a href="https://webname.uz/" target="_blank">webname.uz</a>, 
+      <a href="https://ahost.uz/" target="_blank">ahost.uz</a>, 
+      <a href="https://pscloud.uz/" target="_blank">pscloud.uz</a>, 
+      <a href="https://billur.com/" target="_blank">billur.com</a>, *
+    </td>
+  </tr>
+  <tr>
+    <td>.ws <a class="sm-a" href="https://en.wikipedia.org/wiki/.ws" target="_blank">(Samoa)</a></td>
+    <td>
+      <a href="https://porkbun.com">porkbun.com</a>, 
+      <a href="https://regery.com">regery.com</a>, *
+    </td>
+  </tr>
+</table>
 
-<p><i>Note: The registration of unicode or emoji character domain can be more difficult since it is sometimes not possible to enter special characters into the registration text fields at some domain registrars. To get around this, try using the punycode version of the unicode or emoji character instead.</i></p>
+<p><i>* The registrar list above may not be 100% accurate or complete. There may be other registrars that allow for the registration of unicode/emoji ccTLDs. Also, some of these registrars my change their registration restrictions over time.</i></p>
 
-<p>The availability of an emoji domain name can be verified by checking the WHOIS (<a href="https://lookup.icann.org/" target="_blank">lookup.icann.org</a>) data of the punycode (<a href="https://punycoder.com/" target="_blank">punycoder.com</a>) version of the domain.</p>
+<p><i>** The registration of unicode or emoji character domain can difficult since it is sometimes not possible to enter special characters into the registration text fields at some registrars. To get around this, try using the punycode version of the character(s) instead.</i></p>
+
+<p>The availability of an emoji domain name can be verified by checking the WHOIS (<a href="https://who.to/" target="_blank">who.to</a>) data of the punycode (<a href="https://punycoder.com/" target="_blank">punycoder.com</a>) version of the domain.</p>
 
 
 <h2 id="reference">References and Sources</h2>
