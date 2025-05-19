@@ -48,7 +48,6 @@ xn--gci.com
 xn--h1h.com
 xn--h6h.com
 xn--i1h.com
-xn--i4h.com
 xn--i6h.com
 xn--ici.com
 xn--idi.com
@@ -87,7 +86,6 @@ xn--u2g.com
 xn--u3h.com
 xn--uvh.com
 xn--v4h.com
-xn--vdi.com
 xn--w4h.com
 xn--x4h.com
 xn--xbi.com
@@ -111,7 +109,6 @@ xn--iu-t0x.com
 xn--pon-lfa.com
 xn--saw-yea.com
 xn--axys-yga.com
-xn--g5haaa7o.com
 xn--pono-wga.com
 xn--iyou-5u3b.com
 xn--aveda-bia.com
