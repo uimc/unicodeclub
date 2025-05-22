@@ -5,5 +5,6 @@ export const collection_names = {
   "xn--ezg.com": ["₥.com", "2003-11-10 19:17:09"],
   "xn---bank-5l4b.com": ["€-bank.com", "2005-12-30 20:14:40"],
   "xn--iu-t0x.com": ["i♥u.com", "2006-02-06 11:31:56"],
-  "xn--mzg.com": ["₭.com", "2004-07-20 05:27:58"]
+  "xn--mzg.com": ["₭.com", "2004-07-20 05:27:58"],
+  "xn--14h.com": ["☴.com", "2006-04-10 15:00:25"]
 };
