@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Grandfathered.net - History of Grandfathered, Disallowed Unicode Character Domain Names</title>
+<title>Grandfathered.net - Guide to Disallowed Unicode Character Domain Names</title>
 <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -23,22 +23,85 @@
 </div> 
 <div class="container">
 <h1><a class="logo-link" href="http://grandfathered.net"><img src="images/grandfatherednet.gif" class="header-logo" alt="grandfathered.net logo"></a></h1>
-<p style="text-align: center; padding-bottom: 20px;">Comprehensive history of grandfathered (disallowed) unicode character general top-level (gTLD) domain names.</p>
+<p style="text-align: center; padding-bottom: 20px;">Comprehensive guide and history of grandfathered (disallowed) unicode character general top-level (gTLD) domain names.</p>
 
 
 <h2 id="intro">Introduction</h2>
 
-<p>Unicode domain names, also known as Internationalized Domain Names (<a href="https://en.wikipedia.org/wiki/Internationalized_domain_name" target="_blank">IDNs</a>), allow the use of non-<a href="https://en.wikipedia.org/wiki/ASCII" target="_blank">ASCII</a> characters, such as emojis and symbols from various scripts, in internet domain names. Unlike traditional domain names restricted to 37 ASCII characters (English letters, digits 0-9, and the hyphen), unicode domain names expand possibilities by incorporating characters from diverse unicode character sets, like currencies (€), mathematical operators (÷), and emojis (😉).</p>
+<p>Unicode domain names, also known as Internationalized Domain Names (<a href="https://wikipedia.org/wiki/Internationalized_domain_name" target="_blank">IDNs</a>), allow the use of non-<a href="https://wikipedia.org/wiki/ASCII" target="_blank">ASCII</a> characters, such as emojis and symbols from various scripts, in internet domain names. Unlike traditional domain names restricted to 37 ASCII characters (English letters, digits 0-9, and the hyphen), unicode domain names expand possibilities by incorporating characters from diverse unicode character sets, like currencies (€), mathematical operators (÷), and emojis (😉).</p>
 
 <p>To function within the internet’s infrastructure, these special characters are encoded into an ASCII-compatible format called punycode, prefixed with "xn--". For example, "<b>music♫.com</b>" becomes "<b>xn--music-ht1c.com</b>" in punycode.</p>
 
-<p>With the exception of the information symbol (ℹ), trademark symbol (™️) and "m" emoji (Ⓜ️), a unicode character or emoji must be converted into <a href="https://en.wikipedia.org/wiki/Punycode" target="_blank">punycode</a> to work as a domain name. Punycode is a character encoding method used for IDNs. This representation is used when registering domains containing special characters. The ASCII representation starts with the prefix "xn--" and is followed by the unicode character(s) or emoji(s) encoded as punycode. For example, "xn--qei" is "❤" and "xn--yp8h" is "👍" when converted back to Unicode.</p>
+<p>With the exception of the information symbol (ℹ), trademark symbol (™️) and "m" emoji (Ⓜ️), a unicode character or emoji must be converted into <a href="https://wikipedia.org/wiki/Punycode" target="_blank">punycode</a> to function as a domain name. Punycode is a character encoding method used for IDNs. This representation is used when registering domains containing special characters. The ASCII representation starts with the prefix "xn--" and is appended with the unicode character(s) or emoji(s) encoded as punycode.</p>
 
-<p>Each emoji has a unique punycode representation. For example, "😉" is represented as "xn--n28h" and "☚" as "xn--b4h". There are several tools on the internet that help with converting unicode characters and emojis to punycode and back, but the most popular is <a href="https://punycoder.com/" target="_blank">punycoder.com</a>.</p>
+<p>Each unicode character and emoji has a unique punycode representation. Unicode characters can be identified by their individual length of xn--123, while emojis can be identified by their individual length of xn--1234. When combined with other letters, numbers, and dashes, their punycode values change. There are several tools on the internet that help with converting unicode characters and emojis to punycode and back, but the most popular is <a href="https://punycoder.com/" target="_blank">punycoder.com</a>. Here are some examples:</p>
 
-<p>While it is possible to register disallowed unicode character and emoji domain names on some country-code top-level domains (<a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">ccTLDs</a>) to this day, it is <b>NOT POSSIBLE</b> (since 2010) to register disallowed unicode character or emoji domain names on general top-level domains (<a href="https://en.wikipedia.org/wiki/Generic_top-level_domain" target="_blank">gTLDs</a>).</p>
+<table id="cc-table">
+  <tr>
+    <th>Input</th>
+    <th>Punycode</th>
+    <th>Breakdown</th>
+  </tr>
+  <tr>
+    <td>❤</td>
+    <td>xn--qei</td>
+    <td>unicode character</td>
+  </tr>
+  <tr>
+    <td>👍</td>
+    <td>xn--yp8h</td>
+    <td>emoji</td>
+  </tr>
+  <tr>
+    <td>☚</td>
+    <td>xn--b4h</td>
+    <td>unicode character</td>
+  </tr>
+  <tr>
+    <td>😉</td>
+    <td>xn--n28h</td>
+    <td>emoji</td>
+  </tr>
+  <tr>
+    <td>i❤</td>
+    <td>xn--i-7iq</td>
+    <td>letter + unicode character</td>
+  </tr>
+  <tr>
+    <td>❤❤</td>
+    <td>xn--qeia</td>
+    <td>unicode character + unicode character</td>
+  </tr>
+  <tr>
+    <td>❤❤❤❤❤</td>
+    <td>xn--qeiaaaa</td>
+    <td>unicode character + unicode character + unicode character + ...</td>
+  </tr>
+  <tr>
+    <td>♫</td>
+    <td>xn--m6h</td>
+    <td>unicode character</td>
+  </tr> 
+  <tr>
+    <td>music♫</td>
+    <td>xn--music-ht1c</td>
+    <td>letters + unicode character</td>
+  </tr>
+  <tr>
+    <td>©</td>
+    <td>xn--gba</td>
+    <td>unicode character</td>
+  </tr>
+  <tr>
+    <td>©opy©at</td>
+    <td>xn--opyat-bhad</td>
+    <td>unicode character + letters + unicode character + letters</td>
+  </tr>
+</table>
 
-<p>This is because all gTLDs must follow a strict set of rules and restrictions imposed by Internet Corporation for Assigned Names and Numbers (<a href="https://en.wikipedia.org/wiki/ICANN" target="_blank">ICANN</a>) and Internet Engineering Task Force (<a href="https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force" target="_blank">IETF</a>). ccTLDs are not required to adhere to all of these registration restrictions, as it is up to each country to decide what is best for it's respective, assigned ccTLD.</p>
+<p>While it is possible to register disallowed unicode character and emoji domain names on some country-code top-level domains (<a href="https://wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">ccTLDs</a>) to this day, it is <b>NOT POSSIBLE</b> (since 2010) to register disallowed unicode character or emoji domain names on general top-level domains (<a href="https://wikipedia.org/wiki/Generic_top-level_domain" target="_blank">gTLDs</a>).</p>
+
+<p>This is because all gTLDs must follow a strict set of rules and restrictions imposed by Internet Corporation for Assigned Names and Numbers (<a href="https://wikipedia.org/wiki/ICANN" target="_blank">ICANN</a>) and Internet Engineering Task Force (<a href="https://wikipedia.org/wiki/Internet_Engineering_Task_Force" target="_blank">IETF</a>). ccTLDs are not required to adhere to all of these registration restrictions, as it is up to each country to decide what is best for it's respective, assigned ccTLD.</p>
 
 <p>For more details, go to <a href="https://datatracker.ietf.org/doc/html/rfc5891">datatracker.ietf.org/doc/html/rfc5891</a>.</p>
 
@@ -48,16 +111,16 @@
 <h2 id="event">Notable Events</h2>
 <p>Prior to April 2001, domain names were limited to 37 characters: 26 English letters, 0 to 9, and the hyphen (-).</p>
 
-On 19 April 2001, ICANN and <a href="https://en.wikipedia.org/wiki/Verisign" target="_blank">Verisign</a> expanded the allowed set of characters to include a limited range of symbols drawn from a few different Unicode character sets below:
+On 19 April 2001, ICANN and <a href="https://wikipedia.org/wiki/Verisign" target="_blank">Verisign</a> expanded the allowed set of characters to include a limited range of symbols drawn from a few different Unicode character sets below:
 <ul class="ul-list">
-<li><a href="https://en.wikipedia.org/wiki/Currency_Symbols_(Unicode_block)" target="_blank">Currencies</a> (ex: € ₪ ₥ ₩)</li>
-<li><a href="https://en.wikipedia.org/wiki/Mathematical_Operators_(Unicode_block)" target="_blank">Mathematical Operators</a> (ex: ÷ × ∞)</li>
-<li><a href="https://en.wikipedia.org/wiki/General_Punctuation" target="_blank">Punctuation</a> (ex: • ‐ †)</li>
-<li><a href="https://en.wikipedia.org/wiki/Miscellaneous_Symbols" target="_blank">Miscellaneous Symbols</a> (ex: ♥ ♨️ ♻)</li>
-<li><a href="https://en.wikipedia.org/wiki/Geometric_Shapes_(Unicode_block)" target="_blank">Geometric Shapes</a> (ex: ● ◯ ◳)</li>
-<li><a href="https://en.wikipedia.org/wiki/Letterlike_Symbols" target="_blank">Letterlike Symbols</a> (ex: ℗ ℞)</li>
-<li><a href="https://en.wikipedia.org/wiki/Miscellaneous_Technical" target="_blank">Technical Symbols</a> (ex: ⌨ ⌚ ⎈)</li>
-<li><a href="https://en.wikipedia.org/wiki/Wingdings" target="_blank">Wingdings</a> (ex: ✂️ ❄ ☎️ ✈️)</li>
+<li><a href="https://wikipedia.org/wiki/Currency_Symbols_(Unicode_block)" target="_blank">Currencies</a> (ex: € ₪ ₥ ₩)</li>
+<li><a href="https://wikipedia.org/wiki/Mathematical_Operators_(Unicode_block)" target="_blank">Mathematical Operators</a> (ex: ÷ × ∞)</li>
+<li><a href="https://wikipedia.org/wiki/General_Punctuation" target="_blank">Punctuation</a> (ex: • ‐ †)</li>
+<li><a href="https://wikipedia.org/wiki/Miscellaneous_Symbols" target="_blank">Miscellaneous Symbols</a> (ex: ♥ ♨️ ♻)</li>
+<li><a href="https://wikipedia.org/wiki/Geometric_Shapes_(Unicode_block)" target="_blank">Geometric Shapes</a> (ex: ● ◯ ◳)</li>
+<li><a href="https://wikipedia.org/wiki/Letterlike_Symbols" target="_blank">Letterlike Symbols</a> (ex: ℗ ℞)</li>
+<li><a href="https://wikipedia.org/wiki/Miscellaneous_Technical" target="_blank">Technical Symbols</a> (ex: ⌨ ⌚ ⎈)</li>
+<li><a href="https://wikipedia.org/wiki/Wingdings" target="_blank">Wingdings</a> (ex: ✂️ ❄ ☎️ ✈️)</li>
 </ul>
 
 <p>At least four single-character unicode domains were created on this day:  ☻.com (<a href="http://xn--84h.com" target="_blank">xn--84h.com</a>), ♨️.com (<a href="http://xn--j6h.com" target="_blank">xn--j6h.com</a>), ♨️.net (<a href="http://xn--j6h.net" target="_blank">xn--j6h.net</a>), ☮️.com (<a href="http://xn--v4h.com" target="_blank">xn--v4h.com</a>).
@@ -72,14 +135,16 @@ On 19 April 2001, ICANN and <a href="https://en.wikipedia.org/wiki/Verisign" tar
 
 <p>In 2010, the Unicode Consortium formally recognized 722 emojis and adopted 33 of these unicode characters as emojis (<a href="https://www.unicode.org/reports/tr51/" target="_blank">unicode.org/reports/tr51/</a>).</p>
 
+<p>You can view the list of unicode characters that have been converted into emojis at <a href="https://wiktionary.org/wiki/Appendix:Unicode/Miscellaneous_Symbols" target="_blank">wiktionary.org/wiki/Appendix:Unicode/Miscellaneous_Symbols</a>
+
 <p>The IDNA2008 is published and accepted by ICANN, effectively banning any further emoji-based .com and .net registrations (<a href="https://www.unicode.org/reports/tr46/" target="_blank">unicode.org/reports/tr46/</a>).</p>
 
 
 <h2 id="current">Currently Registered</h2>
 
-<p>On 7 July 2017, the people over at <a href="http://i❤️.ws" target="_blank">i❤️.ws</a> (Domain Research Group) were granted access to the raw .com zone file containing all registered .com domain names in existence. Of the 305,782,825 registered domain names at the time, only 233 contained disallowed unicode characters. Regrettably, there is no guaranteed way to know exactly how many of these historical domain names haven't been renewed throughout the last <script>document.write(new Date().getFullYear() - 2010)</script> years.</p>
+<p>On 7 July 2017, the people over at <a href="http://i❤️.ws" target="_blank">i❤️.ws</a> (Domain Research Group) were granted access to the raw .com zone file containing all registered .com domain names in existence. Of the 305,782,825 registered domain names at the time, only 233 contained disallowed unicode characters. Regrettably, there is no guaranteed way to know exactly how many of these historical domain names were not renewed and were left to expire and be permanently deleted throughout the last <script>document.write(new Date().getFullYear() - 2010)</script> years.</p>
   
-<p>Below are .com and .net lists of disallowed unicode character domain names that are currently known to be registered:</p>
+<p>Below are .com and .net lists of disallowed unicode character domain names that are currently known to still be registered:</p>
 
 
 <h3>List of <u>166</u> known, registered, disallowed unicode character <u>.COM</u> domain names as of <u>May 2025</u>:</h3>
@@ -98,7 +163,7 @@ On 19 April 2001, ICANN and <a href="https://en.wikipedia.org/wiki/Verisign" tar
 
 <h2 id="today">Emoji Domains Today</h2>
 
-<p>As of May 2025, only country-code top-level domains (ccTLDs) are able to allow the registration of unicode/emoji domains. Of the <a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">308 ccTLDs</a> in existence today, only 8 actively allow for unicode and/or emoji character domain registrations:</p>
+<p>As of May 2025, only country-code top-level domains (ccTLDs) are able to allow the registration of unicode/emoji domains. Of the <a href="https://wikipedia.org/wiki/Country_code_top-level_domain" target="_blank">308 ccTLDs</a> in existence today, only 8 actively allow for unicode and/or emoji character domain registrations:</p>
 
 <table id="cc-table">
   <tr>
@@ -106,15 +171,15 @@ On 19 April 2001, ICANN and <a href="https://en.wikipedia.org/wiki/Verisign" tar
     <th>Registrars with Functioning Emoji Registrations</th>
   </tr>
   <tr>
-    <td>.fm <a class="sm-a" href="https://en.wikipedia.org/wiki/.fm" target="_blank">(Federated States of Micronesia)</a></td>
+    <td>.fm <a class="sm-a" href="https://wikipedia.org/wiki/.fm" target="_blank">(Federated States of Micronesia)</a></td>
     <td>
-      <a href="https://regery.com" target="_blank">regery.com</a>, 
+      <a href="https://regery.com/en?pr=konnnev" target="_blank">regery.com</a>, 
       <a href="https://dot.fm/" target="_blank">dot.fm</a>, 
       <a href="https://www.dynadot.com/?rsc=grandfathered&rsctrn=grandfathered&rscreg=grandfathered&rsceh=grandfathered&rscsb=grandfathered&rscco=grandfathered&rscbo=grandfathered" target="_blank">dynadot.com</a>, *
     </td>
   </tr>
   <tr>
-    <td>.gg <a class="sm-a" href="https://en.wikipedia.org/wiki/.gg" target="_blank">(Bailiwick of Guernsey)</a> **</td>
+    <td>.gg <a class="sm-a" href="https://wikipedia.org/wiki/.gg" target="_blank">(Bailiwick of Guernsey)</a> **</td>
     <td>
       <a href="https://porkbun.com" target="_blank">porkbun.com</a>, 
       <a href="https://channelislandhosting.net/" target="_blank">channelislandhosting.net</a>, 
@@ -122,7 +187,7 @@ On 19 April 2001, ICANN and <a href="https://en.wikipedia.org/wiki/Verisign" tar
     </td>
   </tr>
   <tr>
-    <td>.je <a class="sm-a" href="https://en.wikipedia.org/wiki/.je" target="_blank">(Bailiwick of Jersey)</a> **</td>
+    <td>.je <a class="sm-a" href="https://wikipedia.org/wiki/.je" target="_blank">(Bailiwick of Jersey)</a> **</td>
     <td>
       <a href="https://porkbun.com" target="_blank">porkbun.com</a>, 
       <a href="https://channelislandhosting.net/" target="_blank">channelislandhosting.net</a>, 
@@ -130,13 +195,13 @@ On 19 April 2001, ICANN and <a href="https://en.wikipedia.org/wiki/Verisign" tar
     </td>
   </tr>
   <tr>
-    <td>.kz <a class="sm-a" href="https://en.wikipedia.org/wiki/.kz" target="_blank">(Kazakhstan)</a></td>
+    <td>.kz <a class="sm-a" href="https://wikipedia.org/wiki/.kz" target="_blank">(Kazakhstan)</a></td>
     <td>
       <a href="https://ps.kz" target="_blank">ps.kz</a>, *
     </td>
   </tr>
   <tr>
-    <td>.st <a class="sm-a" href="https://en.wikipedia.org/wiki/.st" target="_blank">(São Tomé and Príncipe)</a></td>
+    <td>.st <a class="sm-a" href="https://wikipedia.org/wiki/.st" target="_blank">(São Tomé and Príncipe)</a></td>
     <td>
       <a href="https://gandi.net" target="_blank">gandi.net</a>, 
       <a href="https://istanco.net/" target="_blank">istanco.net</a>, 
@@ -144,14 +209,14 @@ On 19 April 2001, ICANN and <a href="https://en.wikipedia.org/wiki/Verisign" tar
     </td>
   </tr>
   <tr>
-    <td>.to <a class="sm-a" href="https://en.wikipedia.org/wiki/.to" target="_blank">(Tonga)</a></td>
+    <td>.to <a class="sm-a" href="https://wikipedia.org/wiki/.to" target="_blank">(Tonga)</a></td>
     <td>
       <a href="https://istanco.net/" target="_blank">istanco.net</a>, 
       <a href="https://directnic.com/" target="_blank">directnic.com</a>, *
     </td>
   </tr>
   <tr>
-    <td>.uz <a class="sm-a" href="https://en.wikipedia.org/wiki/.uz" target="_blank">(Uzbekistan)</a></td>
+    <td>.uz <a class="sm-a" href="https://wikipedia.org/wiki/.uz" target="_blank">(Uzbekistan)</a></td>
     <td>
       <a href="https://webname.uz/" target="_blank">webname.uz</a>, 
       <a href="https://ahost.uz/" target="_blank">ahost.uz</a>, 
@@ -160,10 +225,10 @@ On 19 April 2001, ICANN and <a href="https://en.wikipedia.org/wiki/Verisign" tar
     </td>
   </tr>
   <tr>
-    <td>.ws <a class="sm-a" href="https://en.wikipedia.org/wiki/.ws" target="_blank">(Samoa)</a></td>
+    <td>.ws <a class="sm-a" href="https://wikipedia.org/wiki/.ws" target="_blank">(Samoa)</a></td>
     <td>
       <a href="https://porkbun.com">porkbun.com</a>, 
-      <a href="https://regery.com">regery.com</a>, *
+      <a href="https://regery.com/en?pr=konnnev">regery.com</a>, *
     </td>
   </tr>
 </table>
