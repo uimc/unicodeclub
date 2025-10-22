@@ -178,6 +178,3 @@ xn--games-yga.com   §games.com
 xn--adult-yga.com   §adult.com
 xn--travel-2ha.com   §travel.com
 xn--patent-2ha.com   §patent.com
-xn--portal-2ha.com   §portal.com
-xn--property-bka.com   §property.com
-xn--realestate-jma.com   §realestate.com
