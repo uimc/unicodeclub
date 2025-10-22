@@ -114,8 +114,11 @@ xn--hm-9da.com   hm®.com
 xn--iu-t0x.com   i♥u.com
 xn--pon-lfa.com   po®n.com
 xn--saw-yea.com   ©saw.com
+xn--sex-qea.com   §sex.com
 xn--axys-yga.com   axys®.com
 xn--pono-wga.com   po®no.com
+xn--shop-ufa.com   §shop.com
+xn--work-ufa.com   §work.com
 xn--iyou-5u3b.com   i♥you.com
 xn--aveda-bia.com   aveda®.com
 xn--aveda-gha.com   aveda©.com
@@ -128,6 +131,8 @@ xn--lamer-bia.com   lamer®.com
 xn--lamer-gha.com   lamer©.com
 xn--stila-bia.com   stila®.com
 xn--stila-gha.com   stila©.com
+xn--games-yga.com   §games.com
+xn--adult-yga.com   §adult.com
 xn---bank-5l4b.com   €-bank.com
 xn--aramis-nia.com   aramis©.com
 xn--aramis-nja.com   aramis®.com
@@ -138,6 +143,8 @@ xn--chanel-nja.com   chanel®.com
 xn--lauder-nia.com   lauder©.com
 xn--lauder-nja.com   lauder®.com
 xn--opyat-bhad.com   ©opy©at.com
+xn--travel-2ha.com   §travel.com
+xn--patent-2ha.com   §patent.com
 xn--nownews-zka.com   nownews®.com
 xn--origins-uja.com   origins©.com
 xn--origins-zka.com   origins®.com
@@ -170,11 +177,3 @@ xn--bumbleandbumble-gta.com   bumbleandbumble©.com
 xn--bumbleandbumble-qva.com   bumbleandbumble®.com
 xn--bobbibrownessentials-g2a.com   bobbibrownessentials®.com
 xn--bobbibrownessentials-gza.com   bobbibrownessentials©.com
-xn--x-jca.com   x§.com
-xn--sex-qea.com   §sex.com
-xn--shop-ufa.com   §shop.com
-xn--work-ufa.com   §work.com
-xn--games-yga.com   §games.com
-xn--adult-yga.com   §adult.com
-xn--travel-2ha.com   §travel.com
-xn--patent-2ha.com   §patent.com
